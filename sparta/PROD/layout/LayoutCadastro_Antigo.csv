@@ -1,0 +1,16 @@
+1;CNPJ_CPF;14;1;14
+2;IE;14;15;28
+3;RazaoSocial;35;29;63
+4;Endereco;45;64;108
+5;Numero;5;109;113
+6;Complemento;15;114;128
+7;CEP;8;129;136
+8;Bairro;15;137;151
+9;Municipio;30;152;181
+10;UF;2;182;183
+11;TelefoneContato;12;184;195
+12;CodIdentConsumidor;12;196;207
+13;NumeroTerminal;12;208;219
+14;Ufhabilitacao;2;220;221
+15;Brancos;5;222;226
+16;CodigoAutentRegistro;32;227;258
