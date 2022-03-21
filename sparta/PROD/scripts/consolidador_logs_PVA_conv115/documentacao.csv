@@ -1,0 +1,225 @@
+101|Advertência|Mestre|1|1|14|CNPJ/CPF não númerico
+102|Advertência|Mestre|2|15|28|IE não informada
+103|Erro|Mestre|3|29|63|Razão Social deve ser informada com pelo menos 3 caracteres
+104|Erro|Mestre|4|64|65|Sigla da UF inválida
+105|Erro|Mestre|5|66|66|Classe de consumo inválida (deve estar entre 1 e 8)
+106|Erro|Mestre|5|66|66|Tipo de assinante inválido (deve estar entre 1 e 6)
+107|Erro|Mestre|6|67|67|Tipo de ligação inválido (deve estar entre 1 e 3)
+108|Erro|Mestre|6|67|67|Tipo de utilização inválido (deve estar entre 1 e 6)
+109|Erro|Mestre|7|68|69|Grupo de tensão inválido (deve estar entre 01 e 14)
+110|Erro|Mestre|7|68|69|Grupo de tensão deve ser 00 para documento fiscal que não seja Conta de Energia
+111|Erro|Mestre|8|70|81|Código de Identificação do consumidor ou assinante deve ser informado
+112|Erro|Mestre|9|82|89|Dia de emissão inválido (deve estar entre 01 e 31)
+113|Erro|Mestre|9|82|89|"Mês de emissão inválido (deve estar entre 01 e 12 deve ser igual ao MÊS da referência de apuração)"
+114|Erro|Mestre|9|82|89|Dia de emissão inválido para abril, junho, setembro ou novembro
+115|Erro|Mestre|9|82|89|Dia de emissão inválido para fevereiro
+116|Erro|Mestre|9|82|89|Dia de emissão inválido para fevereiro de ano não bissexto
+117|Erro|Mestre|9|82|89|"Ano de emissão inválido (deve ser maior que 2003 deve ser igual ao ANO da referência de apuração)"
+118|Erro|Mestre|10|90|91|"Modelo do documento inválido (deve ser 01, 06, 21 ou 22 deve ser o mesmo modelo em todas as notas fiscais do arquivo)"
+119|Erro|Mestre|11|92|94|Série diferente da informada na composição do nome do arquivo
+120|Erro|Mestre|12|95|103|Número do documento fiscal não númerico, ou inválido
+121|Erro|Mestre|12|95|103|Número do documento fiscal fora de sequência
+122|Erro|Mestre|13|104|135|Código de Autenticação Digital do documento fiscal inválido
+123|Erro|Mestre|14|136|147|Valor Total deve ser númerico
+124|Erro|Mestre|15|148|159|BC ICMS deve ser númerico
+125|Erro|Mestre|16|160|171|ICMS deve ser númerico
+126|Erro|Mestre|17|172|183|Campo Isentas ou NT deve ser númerico
+127|Erro|Mestre|18|184|195|Campo Outros deve ser númerico
+128|Erro|Mestre|19|196|196|"Situação do documento inválido (deve ser S, N ou R a partir da ref. 1701, deve ser S, N, R ou C, em letras maiúscula)"
+129|Erro|Mestre|20|197|200|Mês de apuração inválido (tem que estar entre 01 e 12)
+130|Erro|Mestre|20|197|200|Mês de apuração diferente do informado na composição do nome do arquivo
+131|Erro|Mestre|20|197|200|Ano de apuração inválido (deve ser maior que 2003)
+132|Erro|Mestre|20|197|200|Ano de apuração diferente do informado na composição do nome do arquivo
+133|Erro|Mestre|21|201|209|Referência ao item deve ser númerico
+134|Erro|Mestre|21|201|209|Referência ao item da NF não aponta para item com mesmo Número da NF
+135|Erro|Mestre|21|201|209|Referência ao item da NF não aponta para o primeiro item da NF
+136|Erro|Mestre|(22) 36*|(223)(227) 394*|(254)(258) 425*|Código Autenticação Digital do registro do arquivo mestre inválido
+137|Erro|Mestre|21|201|209|Referência ao item maior que a quantidade de itens existente no arquivo de itens
+138|Erro|Mestre|21|201|209|Referência ao item aponta para um registro do arquivo item que não existe
+139|Erro|Mestre|(23) 37*|(255)(259) 426*|(256)(260) 427*|Final do registro com sequência inválida (diferente de CR + LF)
+140|Advertência|Mestre|22|210|219 (221)*|Número do terminal telefônico com valor inválido diferente de LLNNNNNNNN ou LLNNNNNNNNN, ou preenchimento incorreto
+141|Erro|Mestre|22|210|219 (221)*|Número do terminal telefônico com valor inválido diferente de LLNNNNNNNN ou LLNNNNNNNNN, ou preenchimento incorreto
+142|Erro|Mestre|23|220 (222)*|222 (226)*|Brancos com valor inválido diferente de brancos, ES, NI ou BC para NFCEE modelo 06
+143|Erro|Mestre|22|210|219 (221)*|Número da instalação (NFCEE modelo 06) não-informado, inválido, ou preenchimento incorreto
+144|Erro|Mestre|1|1|14|CNPJ/CPF não númerico
+145|Advertência|Mestre|2|15|28|IE não informada, inválida, ou preenchimento incorreto
+146|Erro|Mestre|2|15|28|IE não informada, inválida, ou preenchimento incorreto
+147|Advertência|Mestre|3|29|63|Nome ou Razão Social inválido(a), ou preenchimento incorreto
+148|Erro|Mestre|3|29|63|Nome ou Razão Social inválido(a), ou preenchimento incorreto
+149|Advertência|Mestre|8|70|81|Código de Identificação do consumidor ou assinante inválido
+150|Erro|Mestre|8|70|81|Código de Identificação do consumidor ou assinante inválido
+151|Erro|Mestre|09|82|89|Data de emissão inválida (não pode ser futura)
+152|Erro|Mestre|11|92|94|Série inválida ( não pode iniciar com espaço em branco)
+153|Erro|Mestre|01|1|14|CNPJ não informado
+154|Advertência|Mestre|01|1|14|CNPJ numericamente inválido
+155|Erro|Mestre|01|1|14|CNPJ numericamente inválido
+156|Erro|Mestre|01|1|14|CPF não informado
+157|Erro|Mestre|01|1|14|CPF não está alinhado á  direita
+158|Advertência|Mestre|01|1|14|CPF numericamente inválido
+159|Erro|Mestre|01|1|14|CPF numericamente inválido
+160|Erro|Mestre|01|1|14|CNPJ: preencher com zeros para Pessoa jurídica não obrigada á  inscriçáo no CNPJ
+161|Erro|Mestre|01|1|14|CPF: preencher com zeros para Pessoa física não obrigada á  inscriçáo no CPF
+162|Erro|Mestre|05|66|66|Tipo de assinante inválido (deve ser 0 a partir da referência 1701)
+163|Erro|Mestre|10|90|91|"Modelo do documento inválido (deve ser 01, 06, 21, ou 22 deve ser o mesmo modelo em todas as notas fiscais do arquivo)"
+164|Erro|Mestre|10|90|91|Modelo do documento inválido: deve ser o mesmo modelo em todas as notas fiscais do arquivo)
+165|Erro|Mestre|23|222|222|Tipo de informaçáo inválido (deve estar entre 1 e 4)
+166|Erro|Mestre|24|223|224|Tipo de Cliente inválido (Consulte a tabela de Tipo de Cliente - Energia Elétrica)
+167|Erro|Mestre|24|223|224|Tipo de Cliente inválido (Consulte a tabela de Tipo de Cliente - Serviços de Comunicaçáo)
+168|Erro|Mestre|24|223|224|Tipo de Cliente inválido (Consulte a tabela de Tipo de Cliente - Gás Canalizado)
+169|Erro|Mestre|25|225|226|Subclasse de Fornecimento inválida para a classe Comercial (Consulte a Tabela de Subclasses de Fornecimento)
+170|Erro|Mestre|25|225|226|Subclasse de Fornecimento inválida para a classe Consumo Próprio (Consulte a Tabela de Subclasses de Fornecimento)
+171|Erro|Mestre|25|225|226|Subclasse de Fornecimento inválida para a classe Iluminaçáo Pública (Consulte a Tabela de Subclasses de Fornecimento)
+172|Erro|Mestre|25|225|226|Subclasse de Fornecimento inválida para a classe Industrial (Consulte a Tabela de Subclasses de Fornecimento)
+173|Erro|Mestre|25|225|226|Subclasse de Fornecimento inválida para a classe Poder Público (Consulte a Tabela de Subclasses de Fornecimento)
+174|Erro|Mestre|25|225|226|Subclasse de Fornecimento inválida para a classe Residencial (Consulte a Tabela de Subclasses de Fornecimento)
+175|Erro|Mestre|25|225|226|Subclasse de Fornecimento inválida para a classe Rural (Consulte a Tabela de Subclasses de Fornecimento)
+176|Erro|Mestre|25|225|226|Subclasse de Fornecimento inválida para a classe Serviço Público (Consulte a Tabela de Subclasses de Fornecimento)
+177|Erro|Mestre|25|225|226|Subclasse de Fornecimento deve ser 00 para documento fiscal que não seja Conta de Energia Elétrica
+178|Erro|Mestre|26|227|238|Número do Terminal Telefônico Principal com valor inválido diferente de LLNNNNNNNN ou LLNNNNNNNNN, ou preenchim. incorreto
+179|Erro|Mestre|26|227|238|Número do Terminal Telefônico Principal: informar somente para nota fiscal de modelo 21 ou 22
+180|Erro|Mestre|27|239|252|CNPJ diferente do informado no nome do arquivo
+181|Erro|Mestre|28|253|272|Número ou Código da Fatura Comercial inválido ( não pode iniciar com espaço em branco, nem ser igual ao Número da Nota Fiscal)
+182|Erro|Mestre|29|273|284|Valor Total da Fatura Comercial deve ser númerico
+183|Erro|Mestre|30|285|292|Data de Leitura Anterior: ano menor que 2003, ou é posterior á  Data de Emissáo, ou é inválida)
+184|Erro|Mestre|31|293|300|Data de Leitura Atual: ano menor que 2003, ou é posterior á  de Emissáo, ou incompatível com a de leitura anterior, ou é inválida)
+185|Erro|Mestre|32|301|350|Campo 32 é reservado: preencher com espaços em branco
+186|Erro|Mestre|33|351|358|Campo 33 é reservado: preencher com zeros
+187|Erro|Mestre|34|359|388|"Informações Adicionais: não pode iniciar com espaço em branco vide regras no item 5.2.5.10 do Convênio"
+188|Erro|Mestre|19|196|196|Situaçáo do documento inválida (nota fiscal Complementar não é admitida pela UF do Contribuinte, ou do Destinatário/Tomador)
+189|Erro|Mestre|06|67|67|Tipo de utilizaçáo do registro Mestre não foi informado em nenhum dos itens do documento fiscal
+190|Erro|Mestre|05|66|66|Classe de consumo inválida (deve ser 1 para Gás Canalizado)
+191|Erro|Mestre|06|67|67|Fase ou Tipo de Ligaçáo inválido (deve ser 1 para Gás Canalizado)
+192|Erro|Mestre|10|90|91|"Modelo do documento inválido (deve ser 06, 21, 22 ou 28 deve ser o mesmo modelo em todas as notas fiscais do arquivo)"
+193|Erro|Mestre|30|285|292|Data de Leitura Anterior: preencher com zeros, para documento fiscal que não seja Conta de Energia Elétrica
+194|Erro|Mestre|31|293|300|Data de Leitura Atual: preencher com zeros, para documento fiscal que não seja Conta de Energia Elétrica
+195|Erro|Mestre|22|210|219|Informar o Número do Terminal Telefônico, no formato LLNNNNNNNN ou LLNNNNNNNNN
+201|Erro|Item|1|1|14|CNPJ/CPF diferente do informado no arquivo mestre
+202|Erro|Item|2|15|16|Sigla da UF diferente do informado no arquivo mestre
+203|Erro|Item|3|17|17|Classe de consumo ou Tipo de assinante diferente do informado no mestre
+204|Erro|Item|4|18|18|Fase ou Tipo de Utilizaçáo diferente do informado no arquivo mestre
+205|Erro|Item|5|19|20|Grupo de Tensáo diferente do informado no arquivo mestre
+206|Erro|Item|6|21|28|Data de emissáo diferente do informado no arquivo mestre
+207|Erro|Item|7|29|30|Modelo diferente do informado no arquivo mestre
+208|Erro|Item|8|31|33|Série diferente do informado no arquivo mestre
+209|Erro|Item|9|34|42|Número do documento fiscal diferente do informado no arquivo mestre
+210|Erro|Item|10|43|46|CFOP deve ser númerico
+211|Erro|Item|11|47|49|Número do Item deve ser númerico
+212|Erro|Item|11|47|49|Número do Item inválido (deve estar entre 001 e 990)
+213|Erro|Item|11|47|49|Número do Item fora de sequência
+214|Erro|Item|13|60|99|Descriçáo do serviço/produto não informado, ou preenchimento incorreto
+215|Erro|Item|14|100|103|Código de classificaçáo do item inválido
+216|Erro|Item|16|110|120 (121)*|Quantidade contratada deve ser numérica
+217|Erro|Item|17|121 (122)*|131 (133)*|Quantidade fornecida ou prestada deve ser numérica
+218|Erro|Item|18|132 (134)*|142 (144)*|Valor Total deve ser númerico
+219|Erro|Item|19|143 (145)*|153 (155)*|Campo Desconto/Redutores deve ser númerico
+220|Erro|Item|20|154 (156)*|164 (166)*|Campo Acréscimos e Despesas Acessá³rias deve ser númerico
+221|Erro|Item|21|165 (167)*|175(177)*|BC ICMS deve ser numérica
+222|Erro|Item|22|176 (178)*|186 (188)*|ICMS deve ser númerico
+223|Erro|Item|23|187 (189)*|197 (199)*|Campo Isentas ou NT deve ser númerico
+224|Erro|Item|24|198 (200)*|208 (210)*|Campo Outros deve ser númerico
+225|Erro|Item|25|209 (211)*|212 (214)*|Alíquota do ICMS deve ser numérica
+226|Erro|Item|25|209 (211)*|212 (214)*|Alíquota do ICMS deve ser 0000 (0%) ou maior que 0100 (1%)
+227|Erro|Item|26|213 (215)*|213 (215)*|Situaçáo do item inválido (deve ser S ou N)
+228|Erro|Item|26|213 (215)*|213 (215)*|Situaçáo do item divergente da situaçáo informada no Mestre
+229|Erro|Item|27|214 (216)*|217 (219)*|Mês de apuraçáo diferente do informado no Mestre
+230|Erro|Item|27|214 (216)*|217 (219)*|Ano de apuraçáo diferente do informado no Mestre
+231|Erro|Item|(29) 38*|223 (300)*|254 (331)*|Código Autenticaçáo Digital do registro do arquivo item inválido
+232|Erro|Item|(30) 39*|255 (332)*|256 (333)*|Final do registro com sequência inválida (diferente de CR + LF)
+233|Advertência|Item|10|43|46|CFOP inválido para o Código de classificaçáo do item
+234|Erro|Item|0|1|256 (333)*|Registro de item órfão não pertence a nenhum mestre
+235|Erro|Item|10|43|46|Item do grupo 08 ou 09 deve ter CFOP=0000, e CFOP=0000 somente para Item do grupo 08 ou 09
+236|Erro|Item|10|43|46|Não é permitido a existência de item com CFOP de entrada em arquivo de saá­da
+237|Erro|Item|10|43|46|Não é permitida a existência de item com CFOP de saá­da em arquivo de entrada
+238|Erro|Item|28|220|234|"Número do contrato: informar somente para nota fiscal de modelo 21 ou 22 não iniciar com espaço"
+239|Erro|Item|29|235|246|Quantidade faturada deve ser numérica
+240|Erro|Item|30|247|257|"Tarifa Aplicada: deve ser numérica: informar somente para nota fiscal de modelo 06, 01 ou 28"
+241|Erro|Item|31|258|263|Alíquota do PIS/PASEP deve ser numérica
+242|Erro|Item|32|264|274|Valor do PIS/PASEP deve ser númerico
+243|Erro|Item|33|275|280|Alíquota da COFINS deve ser numérica
+244|Erro|Item|34|281|291|Valor da COFINS deve ser númerico
+245|Erro|Item|35|292|292|Indicador de Desconto Judicial: quando informado, o valor deve ser J
+246|Erro|Item|36|293|294|Tipo de Isenção/Redução inválido (Consulte a tabela de Tipo de Isenção/Redução de Base de Cálculo)
+247|Erro|Item|36|293|294|Tipo de Isenção/Redução inválido (para Energia ou Gás Canalizado, o valor deve ser 00)
+248|Erro|Item|10|43|46|Item com CFOP=0000 não pode conter valor diferente de zero nos campos BC, Isentas, ou ICMS
+249|Erro|Item|19|(143) 145*|(153) 155*|Campo Desconto/Redutores deve conter zeros a partir da referência 1701
+250|Erro|Item|20|(154) 156*|(164) 166*|Campo Acréscimos e Despesas Acessá³rias deve conter zeros a partir da referência 1701
+251|Erro|Item|12|50|59|Código do Item: se informado, não iniciar com espaço
+252|Erro|Item|18|132 (134)*|142 (144)*|Total deve ser igual a Outros, quando CFOP=0000
+253|Erro|Item|18|132 (134)*|142 (144)*|Total deve ser igual a Outros, para Item do grupo 08 ou 09
+254|Erro|Item|18|132 (134)*|142 (144)*|Total deve ser igual á  soma: BC + Isentas + Outros
+255|Erro|Item|18|132 (134)*|142 (144)*|Total não pode ser negativo, para Item do grupo 08
+256|Erro|Item|18|132 (134)*|142 (144)*|Total não pode ser positivo, para Item do grupo 09
+257|Erro|Item|14|100|103|Código de classificação do item inválido para Gás Canalizado
+258|Erro|Item|14|100|103|Código de classificação do item inválido para Energia Elétrica
+259|Erro|Item|14|100|103|Código de classificação do item inválido para (Tele)Comunicaçáµes
+260|Erro|Item|04|18|18|Tipo de Utilização do item é incompatível com o Código de classificação do item
+261|Erro|Item|04|18|18|Tipo de utilização inválido (deve estar entre 1 e 6)
+262|Erro|Item|15|104|109|Unidade de Medida: não iniciar com espaço em branco
+301|Erro|Destinatário|1|1|14|CNPJ/CPF diferente do informado no arquivo mestre
+302|Erro|Destinatário|2|15|28|IE diferente do informado no arquivo mestre
+303|Erro|Destinatário|3|29|63|Razão Social diferente do informado no arquivo mestre
+304|Erro|Destinatário|4|64|108|Logradouro inválido: preenchimento incorreto, ou contém menos de 3 caracteres
+305|Advertência|Destinatário|5|109|113|Número deve ser númerico
+306|Advertência|Destinatário|5|109|113|Número não informado
+307|Advertência|Destinatário|7|129|136|CEP deve ser númerico
+308|Advertência|Destinatário|7|129|136|CEP não informado
+309|Advertência|Destinatário|8|137|151|Bairro não informado, inválido, ou preenchimento incorreto
+310|Advertência|Destinatário|9|152|181|Município não informado, inválido, ou preenchimento incorreto
+311|Advertência|Destinatário|10|182|183|Sigla da UF diferente da informada no arquivo mestre
+312|Erro|Destinatário|12|194 (196)*|205|Código de identificação do cliente ou assinante não informado
+313|Erro|Destinatário|14|216 (220)*|217 (221)*|Sigla da UF de habilitação do terminal Telefônico inválida
+314|Erro|Destinatário|(16) 21*|(223)(227) 256*|(254)(258) 287*|Código Autenticação Digital do registro do arquivo Cadastro inválido
+315|Erro|Destinatário|(17) 22*|(255)(259) 288*|(256)(260) 289*|Final do registro com sequência inválida (diferente de CR + LF)
+316|Advertência|Destinatário|11|184|193 (195)*|Número do telefone de contato com valor inválido diferente de LLNNNNNNNN ou LLNNNNNNNNN, ou preenchimento incorreto
+317|Erro|Destinatário|11|184|193 (195)*|Número do telefone de contato com valor inválido diferente de LLNNNNNNNN ou LLNNNNNNNNN, ou preenchimento incorreto
+318|Advertência|Destinatário|13|206 (208)*|215 (219)*|Número do terminal Telefônico com valor inválido diferente de LLNNNNNNNN ou LLNNNNNNNNN, ou preenchimento incorreto
+319|Erro|Destinatário|13|206 (208)*|215 (219)*|Número do terminal Telefônico com valor inválido diferente de LLNNNNNNNN ou LLNNNNNNNNN, ou preenchimento incorreto
+320|Erro|Destinatário|12|194 (196)*|205 (207)*|Código de identificação do consumidor ou assinante diferente do informado no arquivo mestre
+321|Erro|Destinatário|13|206 (208)*|215 (219)*|Número do terminal Telefônico, ou da instalação, diferente do informado no arquivo mestre
+322|Erro|Destinatário|5|109|113|Número deve ser númerico
+323|Erro|Destinatário|7|129|136|CEP deve ser númerico
+324|Erro|Destinatário|8|137|151|Bairro inválido, ou preenchimento incorreto
+325|Erro|Destinatário|9|152|181|Município não informado, inválido, ou preenchimento incorreto
+326|Erro|Destinatário|10|182|183|Sigla da UF diferente da informada no arquivo mestre
+327|Advertência|Destinatário|12|194 (196)*|205 (207)*|Código de identificação do consumidor ou assinante diferente do informado no arquivo mestre
+328|Erro|Destinatário|12|194 (196)*|205 (207)*|Código de identificação do consumidor ou assinante diferente do informado no arquivo mestre
+329|Advertência|Destinatário|13|206 (208)*|215 (219)*|Número do terminal Telefônico, ou da instalação, diferente do informado no arquivo mestre
+330|Advertência|Destinatário|4|64|108|Logradouro inválido, ou preenchimento incorreto
+331|Erro|Destinatário|4|64|108|"Logradouro inválido, ou preenchimento incorreto: informe o Tipo e o Nome"
+332|Erro|Destinatário|15|222|229|Data de emissáo diferente do informado no arquivo mestre
+333|Erro|Destinatário|16|230|231|Modelo diferente do informado no arquivo mestre
+334|Erro|Destinatário|17|232|234|Série diferente da informada no arquivo mestre
+335|Erro|Destinatário|18|235|243|Número do documento fiscal diferente do informado no arquivo mestre
+336|Erro|Destinatário|19|244|250|Código do Município deve ser númerico
+337|Erro|Destinatário|19|244|250|Código do Município não consta na tabela do IBGE
+338|Erro|Destinatário|19|244|250|Código do Município não corresponde á  UF do destinatário
+339|Erro|Destinatário|19|244|250|Código do Município inválido para a data de emissáo da nota fiscal
+340|Erro|Destinatário|09|152|181|Nome do Município não consta, ou não coincide com a tabela do IBGE
+341|Erro|Destinatário|06|114|128|Complemento do endereço: não pode iniciar com espaço em branco
+401|Erro|||||Quantidade de Registros do arquivo item menor que quantidade de registro do arquivo mestre
+402|Erro|||||Divergência entre o valor total do registro mestre e somatório de valor + Acréscimo - Desconto dos itens
+403|Erro|||||Divergência entre o BC do registro mestre e somatório de BC dos itens
+404|Erro|||||Divergência entre o ICMS do registro mestre e somatório de ICMS dos itens
+405|Erro|||||Divergência entre o Isentos e NT do registro mestre e somatório de Isentos e NT dos itens
+406|Erro|||||Divergência entre o Outros do registro mestre e somatório de Outros dos itens
+407|Erro|||||Divergência entre o somatório de valor total do arquivo mestre e arquivo item
+408|Erro|||||Divergência entre o somatório de BC do arquivo mestre e arquivo item
+409|Erro|||||Divergência entre o somatório de ICMS do arquivo mestre e arquivo item
+410|Erro|||||Divergência entre o somatório de Isentos e NT do arquivo mestre e arquivo item
+411|Erro|||||Divergência entre o somatório de Outros do arquivo mestre e arquivo item
+412|Erro|||||Quantidade de registros do arquivo cadastro diferente da quantidade de registros do arquivo mestre
+413|Erro|||||A série utilizada na formação do nome do arquivo é inválida
+414|Erro|||||Ano de referência utilizado na formação do nome do arquivo inválido
+415|Erro|||||Mês de referência utilizado na formação do nome do arquivo inválido
+416|Erro|||||Identificador do Status utilizado na formação do nome do arquivo inválido
+417|Erro|||||Número da 1ª Nota Fiscal do arquivo mestre inválido
+418|Erro|||||Número da última Nota Fiscal do arquivo mestre inválido
+419|Erro|||||Existem ítens que não sáo referenciados por Notas Fiscais
+420|Erro|M||||Registro Mestre com caracteres inválidos ( posições 0 a 31 da tabela ASCII)
+421|Erro|I||||Registro Item com caracteres inválidos ( posições 0 a 31 da tabela ASCII)
+422|Erro|D||||Registro Destinatário com caracteres inválidos ( posições 0 a 31 da tabela ASCII)
+423|Erro|I||||Total, BC, Isentas, Outros e ICMS devem ter todos o mesmo sinal: positivo ou negativo
+424|Erro|I||||BC, Isentas, ICMS e Aliq_ICMS devem ser iguais a zero quando CFOP=0000
+425|Erro|I||||BC, Isentas, ICMS e Aliq_ICMS devem ser iguais a zero quando o Item é do grupo 08 ou 09
+426|Erro|I||||BC, Isentas, ICMS e Aliq_ICMS devem ser iguais a zero quando o valor de Outros é informado
+427|Erro|I||||BC e Aliq_ICMS devem ser diferentes de zero, e Outros deve ser igual a zero, quando ICMS é informado
